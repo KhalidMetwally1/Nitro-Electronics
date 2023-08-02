@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* body{
+    background-color: #d0d4c5;
+} */
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/Cool\ robot.gif) , url(../images/bg.png);
+    background-position:83% center;
+    background-size: 25%,100%;
+    background-repeat: no-repeat;
+}
+#headerLine{
+    display: flex;
+    justify-content: space-between;
+}
+#headerLine img{
+    width: 4%;
+    margin: 2% 0 0 2%;
+}
+#headerLine ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 123%;
+    color: #485045;
+    font-weight: 600;
+    margin-top: 2.5%;
+}
+#headerLine ul li{
+    padding: 0 8%;
+    cursor: pointer;
+}
+#leftSide{
+    margin: 8% 0 0 8%;
+}
+#leftSide h2{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 200;
+    color: #485045;
+    font-size: 4rem;
+    margin-bottom:0 !important;
+    line-height: 3.5rem;
+}
+#leftSide #first{
+    color: #ad7e25 !important;
+}
+#leftSide div{
+    margin-top: 3rem;
+}
+#customBut{
+    text-decoration: none;
+    color: #eee;
+    padding: 1% 4%;
+    font-family: 'Kufam', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    background-color: #485045;
+    border-style: hidden;
+    border-radius: 45px;
+    box-shadow: 2px 2px 4px #485045;
+}
+#leftSide p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #485045;
+}
+#simg{
+    width: 200px !important;
+    height: 200px !important;
+}
+.container h3{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 600;
+    font-size: 450%;
+    text-align: center;
+    margin-bottom: 3%;
+    text-shadow: 4px 2px 5px #343434;
+}
+#title{
+    color: #485045;
+    padding-top: 10rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+    font-size: 350%;
+    text-align: center;
+    margin-bottom: 3%;
+    color: #eee;
+}
+#title span{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+    color: #484848 !important;
+}
+main{
+    background-image: url(../images/mainbg.png);
+}
+.card{
+    background-color: #090909a6;
+    color: #eee;
+    border: solid 2px #484848 ;
+    margin: 0 10px ;
+}
+.carousel-inner h5{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 250%;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black;
+}
+.carousel-inner p{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px black;
+}
+.whitebg {
+    background-image: url(../images/whitebg.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+#title2 {
+    color: #485045;
+    padding-top: 10rem;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+    font-size: 350%;
+    text-align: center;
+    margin-bottom: 3%;
+    color: #c5c5c5;
+}
+#title2 span{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+    color: #484848 !important;
+}
+#paddn{
+    padding-bottom: 20vh;
+}
+footer{
+    background-color: #c1c1c1;
+}
+footer img {
+    width: 50px !important;
+    height: 50px !important;
+}
+footer{
+    align-items: center !important;
+}
+a{
+    text-decoration: none;
+}
